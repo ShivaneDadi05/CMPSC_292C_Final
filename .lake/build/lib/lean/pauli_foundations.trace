@@ -1,0 +1,37 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["228d0c3201079502.olean"],
+  "m": false,
+  "i": "11af91af192b1cdd.ilean",
+  "c": "ac3bb3aa8af91f83.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/Cli/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/batteries/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/Qq/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/aesop/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/importGraph/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/plausible/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/packages/mathlib/.lake/build/lib/lean:/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/build/lib/lean /Users/shivanedadi/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean /Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/pauli_foundations.lean -o /Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/build/lib/lean/pauli_foundations.olean -i /Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/build/lib/lean/pauli_foundations.ilean -c /Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/build/ir/pauli_foundations.c --setup /Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/.lake/build/ir/pauli_foundations.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "pauli_foundations.lean:116:81: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`",
+   "level": "warning"}],
+ "inputs":
+ [["deps",
+   [["Pauli/Pauli:extraDep", [["@Pauli:extraDep", "00000000000006bb"]]],
+    ["imports",
+     [["Mathlib transitive imports (legacy)", "a55206209482f734"],
+      ["Mathlib:importAllArts", "414d8c59726bb571"]]]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.33.1, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+   "0051240b7c23c453"],
+  ["/Users/shivanedadi/Desktop/UCSB Classes/cs292c_lean/CMPSC_292C_Final/pauli_foundations.lean",
+   "3754fcf2076c6bfd"],
+  ["options",
+   [["-Dpp.unicode.fun=true", "9b94070140457fab"],
+    ["-DautoImplicit=false", "4a85acb881fd49d0"]]],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: pauli_foundations", "41d23a0b9af54b76"],
+  ["Package.id?: (some Pauli)", "c6cba21d71aec0bc"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "49bc0c07efac94e0"}
